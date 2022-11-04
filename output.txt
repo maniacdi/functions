@@ -1,78 +1,8 @@
-FAIL ./bitCounter.test.js
-  ● Count positive bits › Should return a RangeError when a negative value is supplied
-
-    expect(received).toThrow(expected)
-
-    Expected constructor: RangeError
-    Received constructor: Error
-
-    Received message: "Not implemented"
-
-          1 | // Complete this function
-          2 | function countBids(input) {
-        > 3 |   throw new Error("Not implemented");
-            |         ^
-          4 | }
-          5 |
-          6 | describe("Count positive bits", function () {
-
-      at countBids (bitCounter.test.js:3:9)
-      at countBids (bitCounter.test.js:9:7)
-      at Object.<anonymous> (node_modules/expect/build/toThrowMatchers.js:74:11)
-      at Object.throwingMatcher [as toThrow] (node_modules/expect/build/index.js:309:21)
-      at Object.toThrow (bitCounter.test.js:10:8)
-      at Object.toThrow (bitCounter.test.js:10:8)
-
-  ● Count positive bits › Should return zero occurrences for input = 0
-
-    Not implemented
-
-      1 | // Complete this function
-      2 | function countBids(input) {
-    > 3 |   throw new Error("Not implemented");
-        |         ^
-      4 | }
-      5 |
-      6 | describe("Count positive bits", function () {
-
-      at countBids (bitCounter.test.js:3:9)
-      at Object.countBids (bitCounter.test.js:15:18)
-
-  ● Count positive bits › Should return the expected count for input = 1
-
-    Not implemented
-
-      1 | // Complete this function
-      2 | function countBids(input) {
-    > 3 |   throw new Error("Not implemented");
-        |         ^
-      4 | }
-      5 |
-      6 | describe("Count positive bits", function () {
-
-      at countBids (bitCounter.test.js:3:9)
-      at Object.countBids (bitCounter.test.js:21:18)
-
-  ● Count positive bits › Should return the expected count for input = 137
-
-    Not implemented
-
-      1 | // Complete this function
-      2 | function countBids(input) {
-    > 3 |   throw new Error("Not implemented");
-        |         ^
-      4 | }
-      5 |
-      6 | describe("Count positive bits", function () {
-
-      at countBids (bitCounter.test.js:3:9)
-      at Object.countBids (bitCounter.test.js:27:18)
-
+PASS ./bitCounter.test.js
 PASS ./arrayMap.test.js
 
-Test Suites: 1 failed, 1 passed, 2 total
-Tests:       4 failed, 1 passed, 5 total
+Test Suites: 2 passed, 2 total
+Tests:       5 passed, 5 total
 Snapshots:   0 total
-Time:        0.683 s, estimated 1 s
+Time:        0.522 s, estimated 1 s
 Ran all test suites.
-error Command failed with exit code 1.
