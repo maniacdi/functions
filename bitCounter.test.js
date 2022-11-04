@@ -12,6 +12,7 @@ function countBids(input) {
         resultArray.push(i);
       }
     }
+    console.log(resultArray);
     return resultArray;
   }
 }
