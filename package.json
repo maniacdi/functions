@@ -1,0 +1,12 @@
+{
+  "name": "front-recruiting-challenges",
+  "version": "1.0",
+  "license": "ISC",
+  "author": "Alex Mateos at Barrabes",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "jest": "^29.2.2"
+  }
+}
