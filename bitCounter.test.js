@@ -1,32 +1,17 @@
 // Complete this function
 function countBids(input) {
-  // if (input < 0 || input >= Number.MAX_SAFE_INTEGER) {
-  //   throw new RangeError('Must be a positive integer.');
-  // } else {
-  //   const resultArray = [];
-  //   const binaryArray = input.toString(2).split('').reverse();
-  //   const count1 = input.toString(2).replace(/0/g, '').length;
-  //   resultArray.push(count1);
-  //   for (let i = 0; i < binaryArray.length; i++) {
-  //     if (binaryArray[i] === '1') {
-  //       resultArray.push(i);
-  //     }
-  //   }
-  //   return resultArray;
-  // }
   if (input < 0 || input >= Number.MAX_SAFE_INTEGER) {
     throw new RangeError('Must be a positive integer.');
   } else {
     const resultArray = [];
     const binaryArray = input.toString(2).split('').reverse();
-    let count = 0;
+    const count1 = input.toString(2).replace(/0/g, '').length;
+    resultArray.push(count1);
     for (let i = 0; i < binaryArray.length; i++) {
       if (binaryArray[i] === '1') {
         resultArray.push(i);
-        count++;
       }
     }
-    resultArray.splice(0, 0, count);
     return resultArray;
   }
 }
