@@ -7,6 +7,8 @@
     "test": "jest"
   },
   "dependencies": {
+    "atob": "^2.1.2",
+    "axios": "^1.7.2",
     "jest": "^29.2.2"
   }
 }
